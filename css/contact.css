@@ -1,0 +1,101 @@
+body {
+	background: ;white
+	font-family: oblique;
+	text-align: center;
+}
+.menu  {
+    overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	border-bottom: .5px #000 solid;
+	background: #D2D6D9;
+}
+.menu a {
+    float: left;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.menu a:hover {
+    color: gray;
+	
+}
+.img{
+	background:#414B56;
+	color:#D2D6D9;
+	font-family:Brush Script MT;
+	font-size:40px;
+}
+
+.map {
+	background: url("../images/mapapapapa.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 130px;
+}
+.sf {
+	background: url("../images/sf.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+.sky {
+	background: url("../images/sky.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+.paa {
+	border-top: .5px #000 solid;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 1.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-twitter {
+    background: white;
+    color: black;
+}
+.fa-youtube {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.paa2 {
+	margin-left: 50px;
+	margin-top: 20px;
+} 	
+.last {
+	background: #212930;
+	padding: 5px;
+}
+.last a{
+	color: black;
+	text-decoration: none;
+}
+.last a:hover {
+	color: gray;
+}

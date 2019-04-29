@@ -1,0 +1,206 @@
+body {
+	background: white;
+	font-family: Century Gothic;
+	text-align: center;
+}
+.menu  {
+    overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	border-bottom: .5px #000 solid;
+	background:#D2D6D9
+
+}
+.menu a {
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.menu a:hover {
+    color: gray;
+}
+.img{
+	background:#414B56;
+	color:#D2D6D9;
+	font-family:Brush Script MT;
+	font-size:40px;
+}
+	
+.article{
+	background: url("../images/janzy.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	text-align: left;
+	color:#FFF1B5;
+}
+
+.hehahe { 
+	margin-left: 20px
+}	
+.article h1{
+	font-size: 40px;
+	font-family:Brush Script MT;
+}
+.article p{
+	font-size: 20px;
+}
+.
+.top {
+	font-size: 150px;
+	text-align: left;
+	background: #D2D6D9;
+	color:#D2D6D9;
+	font-family:Brush Script MT;
+}
+.top p{
+	font-size:50px;
+	font-family:Brush Script MT;
+}
+
+.article1{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	color:#FFF1B5;
+	background:#D2D6D9;
+}
+.clothes1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.clothes2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.clothes3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+.center{
+	font-size: 30px;
+	text-align: left;
+}
+.article2{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background:#212930;
+	color:#FFF1B5;
+}
+.article2 h4{
+	color:#DAD6CB;
+}
+
+
+.aaaa {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+
+}
+.eeee {
+	margin-top: 0px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+
+}
+.oooo {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 3px;
+}
+.uuuu {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 3px;
+}
+.bloom p{
+	font-size: 30px;
+	text-align: center;
+}
+.run {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ffff {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.cccc {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.run{
+	background:#D2D6D9;
+}
+.rrrr {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.mmmm {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.paa {
+	border-top: .5px #000 solid;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 1.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-twitter {
+    background: white;
+    color: black;
+}
+.fa-youtube {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.paa2 {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.last {
+	background:#212930;
+	padding: 5px;
+	color:#FFF1B5;
+}
+.last a{
+	color: black;
+	text-decoration: none;
+}
+.last a:hover {
+	color: gray;
+}

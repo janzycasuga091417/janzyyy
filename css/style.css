@@ -1,0 +1,117 @@
+body {
+	background: white;
+	font-family: Century Gothic;
+	text-align: center;
+}
+.menu  {
+    overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	border-bottom: .5px #000 solid;
+}
+.main{
+	background:#D2D6D9;
+
+}
+.img{
+	background:#414B56;
+	color:#D2D6D9;
+	font-family:Brush Script MT;
+	font-size:40px;
+}
+.menu a {
+    float: left;
+	color:black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+.menu a:hover {
+    color: gray;
+}
+
+.hd {
+	background: url("../images/zy.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 400px;
+}
+ .intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+.fashion {
+	background:#D2D6D9;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-top: .5px #000 solid;	
+}
+
+.clothes2 {
+	font-family:Brush Script MT;
+	font-size: 30px;
+	text-align: center;
+	color:#FFF1B5;
+	background: #212930;
+}
+.footer {
+	border-top: .5px #000 solid;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 1.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-youtube {
+    background: white;
+    color: black;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.footer2 {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.last {
+	background: #212930;
+	padding: 5px;
+	color:#FFF1B5;
+}
+.last a{
+	color: black;
+	text-decoration: none;
+}
+.last a:hover {
+	color: gray;
+}
